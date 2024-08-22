@@ -62,6 +62,7 @@
         <dubbo-bom.version>3.2.11</dubbo-bom.version>
         <redisson.version>3.29.0</redisson.version>
         <curator.version>5.7.0</curator.version>
+        <netty.version>4.1.112.Final</netty.version>
         <mapstruct.version>1.5.5.Final</mapstruct.version>
         <mybatis-plus.version>3.5.6</mybatis-plus.version>
         <dynamic-datasource.version>4.3.0</dynamic-datasource.version>
@@ -132,6 +133,12 @@
                 <groupId>org.apache.curator</groupId>
                 <artifactId>curator-recipes</artifactId>
                 <version>${curator.version}</version>
+            </dependency>
+            <!-- Netty -->
+            <dependency>
+                <groupId>io.netty</groupId>
+                <artifactId>netty-all</artifactId>
+                <version>${netty.version}</version>
             </dependency>
             <!-- Mapstruct -->
             <dependency>
